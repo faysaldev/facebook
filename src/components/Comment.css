@@ -1,0 +1,47 @@
+.feed.comment{
+    position: relative;
+}
+.commmets__area {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment__text {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.comment__text .MuiAvatar-root.MuiAvatar-circle {
+    margin-right: 5px;
+}
+
+.comment__text p {
+    font-size: 14px;
+    padding: 11px;
+    background: beige;
+    border-radius: 10px 10px 10px 0;
+    width: fit-content;
+}
+
+.comment__text p b {margin-right: 8px;font-size: 11px;font-style: italic;font-weight: bold;}
+
+form {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+form input {
+    flex: 1;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.comment__text:last-child {
+    margin-bottom: 0;
+}

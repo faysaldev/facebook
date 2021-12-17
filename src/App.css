@@ -1,0 +1,11 @@
+.app{
+  background: #f1f2f5;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.app__body{
+  display: flex;
+}
+ul li{
+  list-style: none;
+}

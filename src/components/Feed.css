@@ -1,0 +1,131 @@
+.feed{
+    flex: 1; 
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*========================Story css code strart*/
+.storyReel{
+    display: flex;
+}
+.story{
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position: relative;
+    width: 130px;
+    height: 250px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.story:hover{
+    transform: scale(1.05);
+    transition: .1s ease;
+}
+.story >.MuiAvatar-root{
+    margin-top: 10px;
+    margin-left: 7px;
+    border: 5px solid #2e81f4;
+}
+.story >h4{
+    position: absolute;
+    left: 10px;
+    color: white;
+    bottom: 20px;
+    font-weight: 500;
+}
+
+    .your__story {
+        position: absolute;
+        top: 60%;
+        background: white;
+        width: 100%;
+        height: 40%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .yourStory{
+        color: black !important;
+       left: 20px !important;
+       font-weight: 700 !important;
+       font-size: 17px !important;
+    }
+    .your__story svg.MuiSvgIcon-root {
+        padding: 10px;
+        background: #2e81f4;
+        border-radius: 100%;
+        color: white;
+        font-size: 30px !important;
+        transform: translateY(-50px);
+    }
+/*========================Story css code end*/
+
+/*====================For Massage components*/
+
+.massage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+    background: white;
+    width: 100%;
+}
+.massage__top {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+}
+
+.massage__top form {
+    flex: 1;
+    display: flex;
+    margin-left: 3px;
+}
+
+.massage__top form input {
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    background: #eff2f5;
+    border-radius: 999px;
+}
+
+.massgae__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.massage__option {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.massage__option h3 {
+    margin-left: 5px;
+    font-size: medium;
+}
+
+.massage__option:hover {
+    background: #eff2f5;
+    border-radius: 10px;
+    transition: .1s ease;
+    color: #615f5f;
+}
+/*====================For Massage components end*/
